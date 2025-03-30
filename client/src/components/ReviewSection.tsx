@@ -188,7 +188,7 @@ export default function ReviewSection({ id }: ReviewSectionProps) {
         <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-12">
           고객 후기
         </h2>
-        <div className="relative">
+        <div className="relative px-10">
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={30}
@@ -206,7 +206,7 @@ export default function ReviewSection({ id }: ReviewSectionProps) {
                 slidesPerView: 3
               }
             }}
-            className="w-full"
+            className="w-full [&_.swiper-button-next]:!text-blue-600 [&_.swiper-button-next]:!opacity-70 hover:[&_.swiper-button-next]:!opacity-100 [&_.swiper-button-prev]:!text-blue-600 [&_.swiper-button-prev]:!opacity-70 hover:[&_.swiper-button-prev]:!opacity-100"
           >
             {REVIEW_CONFIG.reviews.map((review) => (
               <SwiperSlide key={review.id}>
@@ -239,12 +239,6 @@ export default function ReviewSection({ id }: ReviewSectionProps) {
               </SwiperSlide>
             ))}
           </Swiper>
-          <div className="absolute top-1/2 -left-4 transform -translate-y-1/2 z-10">
-            <button className="swiper-button-prev !w-8 !h-8 !bg-blue-600 !rounded-full !text-white after:!text-[1rem]"></button>
-          </div>
-          <div className="absolute top-1/2 -right-4 transform -translate-y-1/2 z-10">
-            <button className="swiper-button-next !w-8 !h-8 !bg-blue-600 !rounded-full !text-white after:!text-[1rem]"></button>
-          </div>
         </div>
       </div>
     </section>
