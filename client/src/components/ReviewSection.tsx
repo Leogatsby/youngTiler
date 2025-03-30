@@ -193,10 +193,7 @@ export default function ReviewSection({ id }: ReviewSectionProps) {
             modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={30}
             slidesPerView={1}
-            navigation={{
-              prevEl: ".swiper-button-prev",
-              nextEl: ".swiper-button-next"
-            }}
+            navigation={true}
             pagination={{
               clickable: true
             }}
@@ -242,6 +239,12 @@ export default function ReviewSection({ id }: ReviewSectionProps) {
               </SwiperSlide>
             ))}
           </Swiper>
+          <div className="absolute top-1/2 -left-4 transform -translate-y-1/2 z-10">
+            <button className="swiper-button-prev !w-8 !h-8 !bg-blue-600 !rounded-full !text-white after:!text-[1rem]"></button>
+          </div>
+          <div className="absolute top-1/2 -right-4 transform -translate-y-1/2 z-10">
+            <button className="swiper-button-next !w-8 !h-8 !bg-blue-600 !rounded-full !text-white after:!text-[1rem]"></button>
+          </div>
         </div>
       </div>
     </section>
