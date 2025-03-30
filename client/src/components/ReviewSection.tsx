@@ -64,6 +64,104 @@ const REVIEW_CONFIG = {
       rating: 5,
       content: "욕실 전체 리모델링을 맡겼는데 너무 만족스러워요.",
       date: "2024.01"
+    },
+    {
+      id: 6,
+      name: "강**",
+      location: "서울시 강동구 천호동",
+      constructionType: "현관시공",
+      rating: 5,
+      content:
+        "현관 타일 교체 작업이 너무 깔끔하게 잘 되었습니다. 새집 같아요!",
+      date: "2024.01"
+    },
+    {
+      id: 7,
+      name: "조**",
+      location: "서울시 노원구 상계동",
+      constructionType: "베란다시공",
+      rating: 5,
+      content:
+        "베란다 바닥 타일 작업 깔끔하게 해주셔서 감사합니다. 작업 과정도 꼼꼼하게 설명해주셨어요.",
+      date: "2024.01"
+    },
+    {
+      id: 8,
+      name: "윤**",
+      location: "서울시 동작구 사당동",
+      constructionType: "주방시공",
+      rating: 5,
+      content:
+        "주방 타일 교체 작업을 맡겼는데, 전문적이고 깔끔한 시공 감사합니다!",
+      date: "2023.12"
+    },
+    {
+      id: 9,
+      name: "장**",
+      location: "서울시 성북구 길음동",
+      constructionType: "욕실시공",
+      rating: 5,
+      content: "오래된 욕실이 새것처럼 변했네요. 꼼꼼한 시공 감사드립니다.",
+      date: "2023.12"
+    },
+    {
+      id: 10,
+      name: "한**",
+      location: "서울시 광진구 자양동",
+      constructionType: "현관시공",
+      rating: 5,
+      content:
+        "현관 타일 교체하고 집 분위기가 확 바뀌었어요. 만족스러운 결과물입니다!",
+      date: "2023.12"
+    },
+    {
+      id: 11,
+      name: "신**",
+      location: "서울시 중랑구 면목동",
+      constructionType: "베란다시공",
+      rating: 5,
+      content:
+        "베란다 타일 작업 깔끔하게 마무리해주셔서 감사합니다. 작업 기간도 예상보다 빨랐어요.",
+      date: "2023.11"
+    },
+    {
+      id: 12,
+      name: "임**",
+      location: "서울시 강서구 화곡동",
+      constructionType: "주방시공",
+      rating: 5,
+      content:
+        "주방 벽면 타일 시공이 정말 마음에 듭니다. 전문가다운 일처리 감사합니다.",
+      date: "2023.11"
+    },
+    {
+      id: 13,
+      name: "권**",
+      location: "서울시 용산구 이태원동",
+      constructionType: "욕실시공",
+      rating: 5,
+      content:
+        "욕실 리모델링 결과가 너무 만족스럽습니다. 다음에도 꼭 이용하고 싶어요!",
+      date: "2023.11"
+    },
+    {
+      id: 14,
+      name: "황**",
+      location: "서울시 동대문구 장안동",
+      constructionType: "타일수리",
+      rating: 5,
+      content:
+        "화장실 타일 균열 보수 작업을 잘해주셔서 감사합니다. 전문적인 상담도 좋았어요.",
+      date: "2023.10"
+    },
+    {
+      id: 15,
+      name: "백**",
+      location: "서울시 은평구 불광동",
+      constructionType: "현관시공",
+      rating: 5,
+      content: "현관 타일 시공 정말 만족스럽습니다. 깔끔한 마무리 감사드려요!",
+      date: "2023.10"
     }
   ]
 } as const;
