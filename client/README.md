@@ -1,3 +1,3 @@
-# React + TypeScript + Vite
+# 용타일
 
 용타일 프로젝트를 위한 기본 틀입니다.
