@@ -12,13 +12,6 @@ const HERO_CONFIG = {
 } as const;
 
 export default function HNB() {
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <header className="sticky top-0 z-40 w-full bg-white shadow-md">
       {/* 상단 로고 및 네비게이션 */}
