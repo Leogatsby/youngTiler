@@ -14,7 +14,7 @@ export default function FloatSection() {
         className="w-14 h-14 bg-[#FAE100] rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform duration-200 overflow-hidden"
       >
         <img
-          src="/assets/img/kakao.png"
+          src="/kakao.png"
           alt="카카오톡 상담"
           className="w-12 h-12 object-contain"
         />

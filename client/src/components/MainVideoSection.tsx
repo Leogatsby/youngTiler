@@ -5,11 +5,7 @@ const MAIN_VIDEO_CONFIG = {
   description: "청년타일에서 높은 시공을 약속드립니다"
 } as const;
 
-interface MainVideoSectionProps {
-  id?: string;
-}
-
-export default function MainVideoSection({ id }: MainVideoSectionProps) {
+export default function MainVideoSection() {
   const handleVideoError = (
     e: React.SyntheticEvent<HTMLVideoElement, Event>
   ) => {
